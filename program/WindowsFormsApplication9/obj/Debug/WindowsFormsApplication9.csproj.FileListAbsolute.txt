@@ -45,3 +45,6 @@ C:\Users\bob\Desktop\WindowsFormsApplication9-master\WindowsFormsApplication9\ob
 C:\Users\bob\Desktop\WindowsFormsApplication9-master\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.klient_prywatny.resources
 C:\Users\bob\Desktop\WindowsFormsApplication9-master\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Properties.Resources.resources
 C:\Users\bob\Desktop\WindowsFormsApplication9-master\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csproj.GenerateResource.Cache
+C:\Users\TOMEK\Desktop\Program--master\Program-\program\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe.config
+C:\Users\TOMEK\Desktop\Program--master\Program-\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.exe
+C:\Users\TOMEK\Desktop\Program--master\Program-\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.pdb
