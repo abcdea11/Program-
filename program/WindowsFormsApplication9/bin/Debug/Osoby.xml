@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Lista osób z kolekcji-->
+<Klienci>
+  <prywatni>
+    <osoba>
+      <imie>Tomasz</imie>
+      <nazwisko>Bartek</nazwisko>
+      <miasto>Poznań</miasto>
+      <ulica>Polna</ulica>
+      <kodpocztowy>62-569</kodpocztowy>
+      <telefon>57483753</telefon>
+      <email>fksdfjks@gmail.com</email>
+      <numer>54</numer>
+    </osoba>
+    <osoba>
+      <imie>Bogusz</imie>
+      <nazwisko>Duda</nazwisko>
+      <miasto>Tarnowo </miasto>
+      <ulica></ulica>
+      <kodpocztowy></kodpocztowy>
+      <telefon></telefon>
+      <email></email>
+      <numer></numer>
+    </osoba>
+    <osoba>
+      <imie>Tomek</imie>
+      <nazwisko>Bartek</nazwisko>
+      <miasto>Poznań</miasto>
+      <ulica></ulica>
+      <kodpocztowy></kodpocztowy>
+      <telefon></telefon>
+      <email></email>
+      <numer></numer>
+    </osoba>
+    <osoba>
+      <imie>Sławomir</imie>
+      <nazwisko>Dominiczak</nazwisko>
+      <miasto>Poznań</miasto>
+      <ulica></ulica>
+      <kodpocztowy></kodpocztowy>
+      <telefon></telefon>
+      <email></email>
+      <numer></numer>
+    </osoba>
+  </prywatni>
+</Klienci>
