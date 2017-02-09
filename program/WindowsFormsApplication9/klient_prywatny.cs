@@ -29,7 +29,7 @@ namespace WindowsFormsApplication9
             //DODANIEWANIE KLIENTOW DO XML
             List<klientprywatny> klienci = new List<klientprywatny>();
               klienci.Add(new klientprywatny() { Imie = txtImie.Text, Nazwisko = txtNazwisko.Text, miasto = txtMiasto.Text, ulica=txtUlica.Text,
-                                                kodpocztowy=txtKodPocztowy.Text, telefon=txtTelefon.Text, email=txtEmail.Text, numer=txtNumer.Text});
+                  numer = txtNumer.Text, kodpocztowy =txtKodPocztowy.Text, telefon=txtTelefon.Text, email=txtEmail.Text});
 
             
                         XDocument doc = XDocument.Load("Osoby.xml");
@@ -41,12 +41,11 @@ namespace WindowsFormsApplication9
                         new XElement("nazwisko", klient.Nazwisko),
                         new XElement("miasto", klient.miasto),
                         new XElement("ulica", klient.ulica),
+                        new XElement("numer", klient.numer),
                         new XElement("kodpocztowy", klient.kodpocztowy),
                         new XElement("telefon", klient.telefon),
-                        new XElement("email", klient.email),
-                        new XElement("numer", klient.numer)
-                );                                                             
-                        
+                        new XElement("email", klient.email)                        
+                );                                                                                  
                         doc.Root.Element("prywatni").Add(osoba);
                         doc.Save("Osoby.xml");
             
@@ -73,18 +72,12 @@ namespace WindowsFormsApplication9
                         new XElement("nazwisko", klient.Nazwisko),
                         new XElement("miasto", klient.miasto),
                         new XElement("ulica", klient.ulica),
+                        new XElement("numer", klient.numer),
                         new XElement("kodpocztowy", klient.kodpocztowy),
                         new XElement("telefon", klient.telefon),
-                        new XElement("email", klient.email),
-                        new XElement("numer", klient.numer)
-
-
-
-
-
-                        )
-                    )
-                    )
+                        new XElement("email", klient.email)
+                        )),
+                    new XElement("Firma"))
                 );
 
             xml.Save("Osoby.xml");
