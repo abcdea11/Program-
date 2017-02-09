@@ -25,6 +25,8 @@ namespace WindowsFormsApplication9
 
         private void addToXml(bool value)
         {
+
+            //DODANIEWANIE KLIENTOW DO XML
             List<klientprywatny> klienci = new List<klientprywatny>();
               klienci.Add(new klientprywatny() { Imie = txtImie.Text, Nazwisko = txtNazwisko.Text, miasto = txtMiasto.Text, ulica=txtUlica.Text,
                                                 kodpocztowy=txtKodPocztowy.Text, telefon=txtTelefon.Text, email=txtEmail.Text, numer=txtNumer.Text});
@@ -52,6 +54,7 @@ namespace WindowsFormsApplication9
 
         private void klient(bool value)
         {
+            //TWORZENIE PLIKU XML DZIAŁA TYLKO PRZY PIERWSZYM URUCHOMIENIU
             List<klientprywatny> klienci = new List<klientprywatny>();
             klienci.Add(new klientprywatny() { Imie = txtImie.Text, Nazwisko = txtNazwisko.Text, miasto = txtMiasto.Text, ulica=txtUlica.Text,
                                                 kodpocztowy=txtKodPocztowy.Text, telefon=txtTelefon.Text, email=txtEmail.Text, numer=txtNumer.Text});
@@ -89,6 +92,7 @@ namespace WindowsFormsApplication9
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            //SPRAWDZANIE CZY JEST PLIK I WYWOLANIE ODPOWIEDNIEJ FUNKCJI
             if (File.Exists("Osoby.xml") == true)
             {
                 addToXml(true);
@@ -101,9 +105,9 @@ namespace WindowsFormsApplication9
 
         }
         private void button5_Click(object sender, EventArgs e)
-        {
+        {//WYŚWIETLANIE W DATAGRID
             DataSet ds = new DataSet();
-            ds.ReadXml(@"C: \Users\bob\Desktop\WindowsFormsApplication9 - master\WindowsFormsApplication9\bin\Debug\Osoby.xml");
+            ds.ReadXml(@"Osoby.xml");
             dataGridView1.DataSource = ds.Tables[1];
 
         }
