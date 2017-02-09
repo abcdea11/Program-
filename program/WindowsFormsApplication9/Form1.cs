@@ -27,5 +27,11 @@ namespace WindowsFormsApplication9
             klient form = new klient();
             form.Show();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Auto auto = new Auto();
+            auto.Show();
+        }
     }
 }
