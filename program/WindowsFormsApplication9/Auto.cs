@@ -121,7 +121,9 @@ namespace WindowsFormsApplication9
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if((textBox1.Text == " ")||(textBox2.Text == " ")|(textBox3.Text == " ")|(textBox4.Text == " ")|(textBox5.Text == " ")|(textBox6.Text == " ")|(textBox7.Text == " ")|(textBox8.Text == " ")|(textBox9.Text== " " )|(checkBox1.Checked== true)||checkBox2.Checked == true)
+            if ((textBox1.Text == "") | (textBox2.Text == "") | (textBox3.Text == "") |
+                (textBox4.Text == "") | (textBox5.Text == "") | (textBox6.Text == "") |
+                (textBox7.Text == "") | (textBox8.Text == "") | (textBox9.Text == ""))
             {
                 MessageBox.Show("Uzupełnij wszystkie pola!");
             }
@@ -139,21 +141,21 @@ namespace WindowsFormsApplication9
                 dataGridView1.Rows[n].Cells[8].Value = textBox7.Text;
                 dataGridView1.Rows[n].Cells[9].Value = checkBox1.Checked == true ? Convert.ToBoolean(1) : Convert.ToBoolean(0);
                 dataGridView1.Rows[n].Cells[10].Value = checkBox2.Checked == true ? Convert.ToBoolean(1) : Convert.ToBoolean(0);
-                textBox1.Text = " ";
-                textBox2.Text = " ";
-                textBox3.Text = " ";
-                textBox4.Text = " ";
-                textBox5.Text = " ";
-                textBox6.Text = " ";
-                textBox7.Text = " ";
-                textBox8.Text = " ";
-                textBox9.Text = " ";
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox3.Text = "";
+                textBox4.Text = "";
+                textBox5.Text = "";
+                textBox6.Text = "";
+                textBox7.Text = "";
+                textBox8.Text = "";
+                textBox9.Text = "";
                 checkBox1.Checked = false;
                 checkBox2.Checked = false;
                 ZapisXml();
             }
         }
-        private void dataGridView1_MouseDoubleClick(object sender, MouseEventArgs e)
+        private void dataGridView1_CellMouseDoubleClick(object sender, MouseEventArgs e)
         {
             button2.Enabled = true;
             textBox1.Text = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
@@ -187,7 +189,9 @@ namespace WindowsFormsApplication9
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if ((textBox1.Text == " ") | (textBox2.Text == " ") | (textBox3.Text == " ") | (textBox4.Text == " ") | (textBox5.Text == " ") | (textBox6.Text == " ") | (textBox7.Text == " ") | (textBox8.Text == " ") | (textBox9.Text == " "))
+            if ((textBox1.Text == "") | (textBox2.Text == "") | (textBox3.Text == "") |
+                (textBox4.Text == "") | (textBox5.Text == "") | (textBox6.Text == "") |
+                (textBox7.Text == "") | (textBox8.Text == "") | (textBox9.Text == ""))
             {
                 MessageBox.Show("Uzupełnij wszystkie pola!");
             }
@@ -220,15 +224,15 @@ namespace WindowsFormsApplication9
                 {
                     dataGridView1.SelectedRows[0].Cells[10].Value = 0;
                 }
-                textBox1.Text = " ";
-                textBox2.Text = " ";
-                textBox3.Text = " ";
-                textBox4.Text = " ";
-                textBox5.Text = " ";
-                textBox6.Text = " ";
-                textBox7.Text = " ";
-                textBox8.Text = " ";
-                textBox9.Text = " ";
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox3.Text = "";
+                textBox4.Text = "";
+                textBox5.Text = "";
+                textBox6.Text = "";
+                textBox7.Text = "";
+                textBox8.Text = "";
+                textBox9.Text = "";
                 button2.Enabled = false;
                 ZapisXml();
             }
