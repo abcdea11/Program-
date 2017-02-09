@@ -52,24 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="klientprywatny.cs" />
     <Compile Include="klient.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="klient.Designer.cs">
       <DependentUpon>klient.cs</DependentUpon>
-    </Compile>
-    <Compile Include="klientprywatny.cs" />
-    <Compile Include="klient_firma.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="klient_firma.Designer.cs">
-      <DependentUpon>klient_firma.cs</DependentUpon>
-    </Compile>
-    <Compile Include="klient_prywatny.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="klient_prywatny.Designer.cs">
-      <DependentUpon>klient_prywatny.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,12 +66,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="klient.resx">
       <DependentUpon>klient.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="klient_firma.resx">
-      <DependentUpon>klient_firma.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="klient_prywatny.resx">
-      <DependentUpon>klient_prywatny.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

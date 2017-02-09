@@ -57,3 +57,13 @@ C:\Users\TOMEK\Desktop\Program--master\Program-\program\WindowsFormsApplication9
 C:\Users\TOMEK\Desktop\Program--master\Program-\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.klient_prywatny.resources
 C:\Users\TOMEK\Desktop\Program--master\Program-\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Properties.Resources.resources
 C:\Users\TOMEK\Desktop\Program--master\Program-\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csproj.GenerateResource.Cache
+E:\Program-\program\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe.config
+E:\Program-\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.exe
+E:\Program-\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.pdb
+E:\Program-\program\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe
+E:\Program-\program\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.pdb
+E:\Program-\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csprojResolveAssemblyReference.cache
+E:\Program-\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Form1.resources
+E:\Program-\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.klient.resources
+E:\Program-\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Properties.Resources.resources
+E:\Program-\program\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csproj.GenerateResource.Cache
